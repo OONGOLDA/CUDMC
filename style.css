@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto; /* Center the table */
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+input[type="text"], input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; /* Include padding in width */
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
